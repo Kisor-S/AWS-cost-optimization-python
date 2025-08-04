@@ -7,8 +7,8 @@ cloudwatch = boto3.client('cloudwatch')
 # Config
 TAG_KEY = 'Environment'
 TAG_VALUE = 'dev'
-IDLE_THRESHOLD = 00 # min idle days in 30
-AGE_THRESHOLD = 00 # min age in days
+IDLE_THRESHOLD = 25 # min idle days in 30
+AGE_THRESHOLD = 30 # min age in days
 
 now = datetime.now(timezone.utc)
 termination_candidates = []
