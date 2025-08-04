@@ -14,6 +14,8 @@ This Python script scans EC2 instances across multiple AWS regions, identifies t
 - 🌍 Supports multi-region scanning
 - 🔐 Interactive confirmation to avoid accidental deletion
 
+Ideal for teams aiming to reduce cloud costs without compromising operational integrity.
+
 ---
 
 ## 🛠️ Requirements
